@@ -58,6 +58,11 @@ hr {
     text-decoration: none;
 }
 
+.list-padding{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
 .navigation {
     background-color: var(--primary-color);
     color: white;
@@ -120,6 +125,7 @@ hr {
 
 .ow{
     background-color: var(--offWhite-color);
+    border-radius: 1rem;
 }
 
 
@@ -141,4 +147,13 @@ hr {
 
 .footer ul{
     padding-inline-start: 0px;
+}
+
+.footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+
+.highlighted-text{
+    color: var(--primary-color);
 }
