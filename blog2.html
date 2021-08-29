@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Websockets | Aravind Harihar</title>
+</head>
+<body>
+    <nav class="navigation container">
+        <div class="navBrand"><a class="link" href="/index.html">Aravind Harihar </a></div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link" href="/index.html">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/projects.html">Projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link link-active" href="/blogs.html">Blogs</a>
+            </li>
+        </ul>
+    </nav>
+
+        <div class="container container-center">
+            <h1 class="hero hero-heading">Introduction to <span class="highlighted-text">WebSockets</span> </h1>
+        </div>
+
+    <div class="container container-center">
+        <h2>What is a WebSocket?</h2>
+        <p>A WebSocket is a persistent bidirectional connection between a client and server.
+            It facilitates the passing of messages from client to server and from server to client.
+        </p>
+
+         <p>Sounds boring? <span class="highlighted-text">let's spice it up!</span></p>
+         <br>
+
+         <h2>Why use WebSockets?</h2>
+         <p>WebSocket does what conventional HTTP cannot. <br>
+            HTTP is unidirectional, meaning there is only 1-way communication (of sorts). <br>
+            To receive a message from the server, the request has to be made by the client, if not, no message is received.
+        </p>
+        <br>
+        <p>HTTP is like <span class="highlighted-text">chatting with your crush</span> , it is you who has to always send the request and most likely get a one-word response 😛</p>
+
+        <br>
+        <p>In the case of WebSockets, the server can send data to the client even if the client has not requested it.
+            Meaning, once the connection is made, the messaging is persistent to and fro the server and client.
+        </p>
+        <br>
+        <p>
+            So WebSocket is like <span class="highlighted-text">chatting with your friends</span>, you just make the connection once and the conversation keeps flowing 😎
+        </p>
+        <br>
+
+        <h2> Where is WebSocket used? </h2>
+
+        <span class="highlighted-text"></span>
+
+        <p>WebSockets are used where <span class="highlighted-text">real-time updates</span> are needed.</p>
+
+        <p>Imagine playing PUBG with your friends and you have to keep refreshing the page to see if you have received messages from your friends. Nah, you'd be dead before your request reaches the server!</p>
+        <br>
+
+        <p>Imagine you are trying to buy bitcoin, its price changes every second, so you need real-time data, or you can lose a lot of money.
+        </p>
+
+        <br>
+
+        <p>The same is the case in video calling software like BlueJeans & Zoom. The name in the People section and their audio/video mute states are received by WebSockets.
+        </p>
+
+        <br>
+
+        <p>So once the PUBG game starts or you login to the BTC exchange website or you get on a call with your boss, a WebSocket connection is established and you keep receiving messages even if you are not requesting it. The messages keep pouring in.
+        </p>
+
+        <br>
+
+        <h2>Sounds cool,<br> but where can I see if WebSocket is active?</h2>
+
+        <ol>
+            <li>Open the Network tab in your browser dev tools and open WhatsApp web. <br> <br></li>
+            <li>You will see a connection by name "ws" (stands for WebSocket) <br> <br></li>
+            <li>Click on that and click on the "Messages" tab and voila! you can see the handshake being made and all the messages between server and client are shown there. <br> <br></li>
+        </ol>
+
+        <div class="hero">
+            <img class="hero-image" src="images/Screenshot 2021-08-15 at 10.04.07 PM.png" alt="">
+        </div>
+
+        <h2 style="text-align: center;">That's all folks!</h2>
+
+    </div>
+
+
+    <footer class="footer">
+        <div class="footer-header">You can find me on</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline "><a class="link" href="https://github.com/AravindHarihar">GitHub</a></li>
+            <li class="list-item-inline "><a class="link" href="https://github.com/AravindHarihar">Twitter</a></li>
+            <li class="list-item-inline "><a class="link" href="https://github.com/AravindHarihar">Instagram</a></li>
+        </ul>
+    </footer>
+    
+
+    
+
+
+</body>
+</html>
