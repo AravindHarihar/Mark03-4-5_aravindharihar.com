@@ -157,3 +157,7 @@ hr {
 .highlighted-text{
     color: var(--primary-color);
 }
+
+.ppadding{
+    padding-bottom: 0.5rem;
+}
