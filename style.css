@@ -17,7 +17,7 @@ body {
 }
 
 .container-center {
-    max-width: 600px;
+    max-width: 650px;
     margin: auto;
 }
 
@@ -160,4 +160,8 @@ hr {
 
 .ppadding{
     padding-bottom: 0.5rem;
+}
+
+.mark-highlight{
+    color: var(--primary-color);
 }
